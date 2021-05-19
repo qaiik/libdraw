@@ -18,7 +18,7 @@ if sys.argv[0] == '-w' or sys.argv[0] == '-window':
   root = Tk()
 
   a = Label(root)
-  root.geometry(sys.argv[2].replace('-b',''))
+  root.geometry(sys.argv[1].replace('-b',''))
   root.title('')
   a.pack()
   root.mainloop()
